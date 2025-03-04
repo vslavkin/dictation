@@ -69,7 +69,7 @@ let
     src = fetchgit {
       url = "https://github.com/ideasman42/nerd-dictation";
       sparseCheckout = [ "nerd-dictation" ];
-      hash = "sha256-rZo662A3wEVGYK7pq7Z3lh2yP0WJoLeMM4VpEG2QqY0";
+      hash = "sha256-fWfkWOMkAg26tpBX47Di2Rm+jZgS01Dm9dr6MeciZ2Y";
     };
 
     nativeBuildInputs = [ pkgs.makeWrapper ];
